@@ -132,6 +132,10 @@ h3 {
 	background-color: #f195b2;
 	padding: 15px 40px;
 	border-radius: 30px;
+	flex-shrink: 1;
+	flex-grow: 0;
+	flex-basis: content;
+	width:fit-content;
 	}
 
 .vitejte a:hover {
@@ -143,6 +147,12 @@ h3 {
 	flex-shrink: 0;
 	flex-grow: 1;
 }
+
+.levy {
+	display: flex;
+	flex-direction: column;
+}
+
 
 .nabidka {
 	background-color: #f0f0f0	;

@@ -156,9 +156,23 @@ h3 {
 .produkt {
 	background-color: white;
 	border-radius: 5px;
-	padding: 20px;
+	box-shadow: 10px 10px 15px  rgba(121, 119, 119, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
 }
 
+.produkt p {
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+}
+
+.produkt h3 {
+	margin-bottom: 0;
+}
 
 .nas-pristup {
 	display: flex;
